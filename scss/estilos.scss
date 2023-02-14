@@ -24,3 +24,46 @@
     border: 1px solid darkblue;
     border-radius: 5px;
 }
+
+nav{
+    background-color:black ;
+}
+
+.seccion {
+    padding-top: 80px;
+    padding-bottom: 115px;
+    background-color: #dadbf1;
+    height: 400px;
+     }
+  
+  .textodiv {
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: -4px;
+    font-weight: 400;
+    margin: 0 0 1rem;
+    text-align: center; }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+        .form__search{
+            margin-left: 23rem;
+            margin-right: 23rem;
+            padding: 1.2rem;
+            border-radius: 5px;
+            border: 1px solid;
+            
+        }
+
+.conteiner{
+    padding-bottom: 1rem;
+}
+.conteiner__box{
+    width: 80%;
+    max-width: 1600px;
+}
+
+  
