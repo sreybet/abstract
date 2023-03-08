@@ -66,4 +66,58 @@ nav{
     max-width: 1600px;
 }
 
-  
+.box{
+    display: flex;
+    width: 100%;
+
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+    
+    
+}
+
+.box__image{
+    width: 86px;
+    height: 86px;
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 3rem 0 1rem;
+}
+
+.p__box{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.a__box{
+    font-size: 20px;
+    line-height: 28px;
+    color: #4C5FD5 ;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
+.a__box:hover {text-decoration: underline ;}
+
+.box__texto{
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    text-align: left;
+}
